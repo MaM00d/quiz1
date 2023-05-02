@@ -1,3 +1,3 @@
 # quiz1
-# Mahmoud Essam Faathy
+# Mahmoud Essam Fathy
 # 191900203
