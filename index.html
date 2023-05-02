@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+       <div id="calculator" class="calculator w-25 rounded shadow shadow-intensity-lg" >
+      <h4 class="mb-3 fw-bold">Simple Calculator</h4>
+      <label class="fw-bold mb-3 mt-4">Enter First Number:</label>
+      <input type="text" name="siteName" id="firstnumber" class="w-100 form-control rounded" placeholder="First Number">
+      
+      <label class="fw-bold mb-3 mt-4 ">Enter Second number:</label>
+      <input type="text" id="secondnumber" class="w-100 form-control rounded" placeholder="Second Number">
+     
+    <div class="w-100 buttons">
+    <button class="btn btn-primary btn-lg mt-3 text-white " id="add" onclick="Add()">Add</button>
+    <button class="btn btn-warning btn-lg mt-3 text-white" id="subtract" onclick="Subtract()">Subtract</button>
+    <button class=" btn mt-3 text-white btn-danger btn-lg" onclick="Clear()">Clear</button>
+    </div>
+</div>
+<script src="js/myScript.js"></script>
+</body>
+</html>
